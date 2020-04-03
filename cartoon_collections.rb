@@ -6,14 +6,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(array)
-  power_array = []
-  i = 0
-  while i < array.length
-    power_array << array[i].capitalize + "!"
-    i += 1
-  end
-  power_array
-end
+  (planeteerCalls){
+ return planeteerCalls.map(a=>a.toUpperCase()+"!")
+
+}
 
 def long_planeteer_calls(array)
   i = 0
